@@ -17,7 +17,6 @@ def solution(code):
             else:
                 if idx%2 == 1:
                     ret=ret+code[idx]
-    idx=+1
     if len(ret) == 0:
         return "EMPTY"
     return ret
