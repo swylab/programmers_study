@@ -1,5 +1,5 @@
 def solution(m, n):
-    a = []
+    a = ''
     for i in range(n):
         a += m[i]
-    return "".join(a)
+    return a
