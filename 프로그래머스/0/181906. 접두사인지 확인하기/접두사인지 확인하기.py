@@ -1,5 +1,4 @@
 def solution(my_string, is_prefix):
-    answer = 0
     all_prefix = []
     for i in range(len(my_string)):
         all_prefix.append(my_string[:i])
